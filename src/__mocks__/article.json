@@ -26,35 +26,45 @@
             "category": "Growth"
         }
     ],
-    "Blog": {
-        "featured": [
+    "blog": {
+        "featured_desc": {
+            "thumb": "./images/thumb/blog/feature-1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
+            "post_wgd": [
+                {
+                    "icon": "./images/icon/calendar.png",
+                    "text": "January 22,2023"
+                },
+                {
+                    "icon": "./images/icon/grid.png",
+                    "text": "Marketing"
+                },
+                {
+                    "icon": "./images/icon/clock.png",
+                    "text": "5 min read"
+                }
+            ]
+        },
+        "features": [
             {
-                "thumb": "./images/thumb/blog/feature-1.png",
+                "category" : "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "date": "January 22,2023",
-                "category": "Marketing",
-                "read_time": "5 min read"
+                "read_time" : "4 min Read"
             },
             {
-                "thumb": "./images/thumb/blog/feature-1.png",
+                "category" : "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "date": "January 22,2023",
-                "category": "Marketing",
-                "read_time": "7 min read"
+                "read_time" : "4 min Read"
             },
             {
-                "thumb": "./images/thumb/blog/feature-1.png",
+                "category" : "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "date": "January 22,2023",
-                "category": "Marketing",
-                "read_time": "3 min read"
+                "read_time" : "4 min Read"
             },
             {
-                "thumb": "./images/thumb/blog/feature-1.png",
+                "category" : "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "date": "January 22,2023",
-                "category": "Marketing",
-                "read_time": "10 min read"
+                "read_time" : "4 min Read"
             }
         ],
         "category": [
@@ -128,30 +138,30 @@
                 "read_time": "9 min read"
             }
         ],
-        "tags" : [
+        "tags": [
             {
-                "tag" : "Cyber security"
+                "tag": "Cyber security"
             },
             {
-                "tag" : "Hacker"
+                "tag": "Hacker"
             },
             {
-                "tag" : "Blockchain"
+                "tag": "Blockchain"
             },
             {
-                "tag" : "Password"
+                "tag": "Password"
             },
             {
-                "tag" : "Security"
+                "tag": "Security"
             },
             {
-                "tag" : "Safety Support"
+                "tag": "Safety Support"
             },
             {
-                "tag" : "Service"
+                "tag": "Service"
             },
             {
-                "tag" : "News"
+                "tag": "News"
             }
         ]
     }
