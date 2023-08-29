@@ -1,0 +1,10 @@
+{
+    "banner": {
+        "title": "Boost your productivity with our suite of apps, tailored just for you.",
+        "thumb_lg": "./images/thumb/banner/thumb-lg.png",
+        "thumb_sm": "./images/thumb/banner/thumb-sm.png",
+        "gfx": "./images/thumb/banner/gfx.png",
+        "thumb" : "./images/thumb/banner/thumb.png"
+        
+    }
+}

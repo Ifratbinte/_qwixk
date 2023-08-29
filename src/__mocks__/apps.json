@@ -1,0 +1,185 @@
+{
+    "appCard": [
+        {
+            "type": "Top Rated",
+            "logo": "./images/icon/apps/feature/zingoo.png",
+            "thumb": "./images/thumb/apps/app-2.png",
+            "name": "Zingoo",
+            "btn_text": "Install Now"
+        },
+        {
+            "type": "Coming Soon",
+            "logo": "./images/icon/apps/feature/ratex.png",
+            "thumb": "./images/thumb/apps/app-1.png",
+            "name": "RateX",
+            "btn_text": "Pre-register"
+        },
+        {
+            "type": "Spotlight",
+            "logo": "./images/icon/apps/feature/nimbuzz.png",
+            "thumb": "./images/thumb/apps/app-3.png",
+            "name": "Nimbuzz",
+            "btn_text": "Download"
+        }
+    ],
+    "apps_content": {
+        "icons": [
+            {
+                "store": "./images/icon/apps/store.png",
+                "path": "#"
+            },
+            {
+                "store": "./images/icon/apps/android.png",
+                "path": "#"
+            },
+            {
+                "store": "./images/icon/apps/play.png",
+                "path": "#"
+            }
+        ],
+        "Finance": [
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "./images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            }
+        ],
+        "productivity": [
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "./images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            },
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            }
+        ],
+        "entertainment": [
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "./images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            },
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            }
+        ],
+        "utilities": [
+            {
+                "type": "New",
+                "featured": "./images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "./images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            }
+        ],
+        "installed": [
+            {
+                "type": "New",
+                "featured": "/images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "/images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "/images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            }
+        ],
+        "recommended": [
+            {
+                "type": "New",
+                "featured": "/images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "/images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "/images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            },
+            {
+                "type": "New",
+                "featured": "/images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "/images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            }
+        ],
+        "other": [
+            {
+                "type": "New",
+                "featured": "/images/thumb/apps/app-1.png",
+                "title": "RateX"
+            },
+            {
+                "type": "Top Rated",
+                "featured": "/images/thumb/apps/app-2.png",
+                "title": "Zingoo"
+            },
+            {
+                "type": "Upcoming",
+                "featured": "/images/thumb/apps/app-3.png",
+                "title": "Nimbuzz"
+            },
+            {
+                "type": "New",
+                "featured": "/images/thumb/apps/app-1.png",
+                "title": "RateX"
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+.border:before{
+    position: absolute;
+    content: "";
+    left: 50px;
+    bottom: 40px;
+    height: 2px;
+    width: 80px;
+    background-color: #00B860;
+    display: block;
+}

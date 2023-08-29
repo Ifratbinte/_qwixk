@@ -1,0 +1,80 @@
+{
+    "links": [
+        {
+            "link_option": "Privacy Policy",
+            "path": "#"
+        },
+        {
+            "link_option": "Contacts",
+            "path": "/contact"
+        },
+        {
+            "link_option": "Terms of use",
+            "path": "#"
+        },
+        {
+            "link_option": "News & Articles",
+            "path": "#"
+        },
+        {
+            "link_option": "Support",
+            "path": "/support"
+        },
+        {
+            "link_option": "Cookie Settings",
+            "path": "#"
+        },
+        {
+            "link_option": "About Us",
+            "path": "/about"
+        },
+        {
+            "link_option": "Blog",
+            "path": "/news"
+        }
+    ],
+    "icons": [
+        {
+            "icon": "./images/icon/social/facebook.svg",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/twitter.png",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/linkedin.svg",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/instagram.svg",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/app-store.png",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/play.png",
+            "path": "#"
+        }
+    ],
+    "icon_stroke": [
+        {
+            "icon": "./images/icon/social/twitter-stroke.png",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/facebook-stroke.png",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/linkedin-stroke.png",
+            "path": "#"
+        },
+        {
+            "icon": "./images/icon/social/instagram-stroke.png",
+            "path": "#"
+        }
+    ]
+}

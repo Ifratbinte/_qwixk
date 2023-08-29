@@ -1,0 +1,94 @@
+{
+   "apps": [
+      {
+         "img": "./images/thumb/apps/app-1.png",
+         "name": "RateX",
+         "path": "#"
+      },
+      {
+         "img": "./images/thumb/apps/app-2.png",
+         "name": "Zingoo",
+         "path": "#"
+      },
+      {
+         "img": "./images/thumb/apps/app-3.png",
+         "name": "Nimbuzz",
+         "path": "#"
+      },
+      {
+         "img": "./images/thumb/apps/app-1.png",
+         "name": "RateX",
+         "path": "#"
+      },
+      {
+         "img": "./images/thumb/apps/app-2.png",
+         "name": "Zingoo",
+         "path": "#"
+      },
+      {
+         "img": "./images/thumb/apps/app-3.png",
+         "name": "Nimbuzz",
+         "path": "#"
+      }
+   ],
+   "options": [
+      {
+         "icon": "./images/icon/support/password.png",
+         "title": "Forget ID and Password",
+         "type": "password"
+      },
+      {
+         "icon": "./images/icon/support/tv.png",
+         "title": "Issues and Bugs",
+         "type": "issue"
+      },
+      {
+         "icon": "./images/icon/support/payment.png",
+         "title": "Billing and Subscription",
+         "type": "billing"
+      }
+   ],
+   "communities": {
+      "icon": "./images/icon/support/community.png",
+      "title": "Communities",
+      "desc": "Find answers, ask questions, and connect with other Qwixk users",
+      "btn_text": "Join Now"
+   },
+   "support": {
+      "icon": "./images/icon/support/users.png",
+      "title": "Get Support",
+      "desc": "Give us a few details and we’ll offer the best solution. Connect by phone, chat, email, and more.",
+      "btn_text": "Start Now"
+   },
+   "safety": {
+      "icon": "./images/icon/support/security.png",
+      "title": "Safety and Security",
+      "desc": "At Qwixk our top priority is safeguarding your data and privacy, so you can freely navigate through the digital world without worry. With state-of-the-art encryption and proactive threat detection, we've got your back 24/7. Experience online freedom without compromise – because your safety is non-negotiable.",
+      "link": {
+         "link_span": "Learn More",
+         "desc": "about Qwixk’s approach to expanding access to safe and secure apps."
+      }
+   },
+   "quick_links": [
+      {
+         "link": "Explore our Features",
+         "path": "#"
+      },
+      {
+         "link": "Get Started Guide",
+         "path": "#"
+      },
+      {
+         "link": "Frequently asked questions",
+         "path": "#"
+      },
+      {
+         "link": "Latest Updates",
+         "path": "#"
+      },
+      {
+         "link": "Community Guidelines",
+         "path": "#"
+      }
+   ]
+}

@@ -1,0 +1,158 @@
+{
+    "title": "Blog and Article",
+    "articles": [
+        {
+            "id": 1,
+            "image": "./images/thumb/blog/blog-1.png",
+            "icon": "./images/icon/blog/icon-1.png",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Eleifend dolor.",
+            "date": "JAN 15, 2023",
+            "category": "Marketing"
+        },
+        {
+            "id": 2,
+            "image": "./images/thumb/blog/blog-2.png",
+            "icon": "./images/icon/blog/icon-2.png",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Eleifend dolor.",
+            "date": "JAN 15, 2023",
+            "category": "Tech"
+        },
+        {
+            "id": 3,
+            "image": "./images/thumb/blog/blog-3.png",
+            "icon": "./images/icon/blog/icon-3.png",
+            "desc": "Lorem ipsum dolor sit amet consectetur. Eleifend dolor.",
+            "date": "JAN 15, 2023",
+            "category": "Growth"
+        }
+    ],
+    "Blog": {
+        "featured": [
+            {
+                "thumb": "./images/thumb/blog/feature-1.png",
+                "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
+                "date": "January 22,2023",
+                "category": "Marketing",
+                "read_time": "5 min read"
+            },
+            {
+                "thumb": "./images/thumb/blog/feature-1.png",
+                "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
+                "date": "January 22,2023",
+                "category": "Marketing",
+                "read_time": "7 min read"
+            },
+            {
+                "thumb": "./images/thumb/blog/feature-1.png",
+                "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
+                "date": "January 22,2023",
+                "category": "Marketing",
+                "read_time": "3 min read"
+            },
+            {
+                "thumb": "./images/thumb/blog/feature-1.png",
+                "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
+                "date": "January 22,2023",
+                "category": "Marketing",
+                "read_time": "10 min read"
+            }
+        ],
+        "category": [
+            {
+                "icon": "./images/icon/blog/icon-4.png",
+                "category_name": "Marketing"
+            },
+            {
+                "icon": "./images/icon/blog/icon-5.png",
+                "category_name": "Development"
+            },
+            {
+                "icon": "./images/icon/blog/icon-6.png",
+                "category_name": "Cyber Security"
+            },
+            {
+                "icon": "./images/icon/blog/icon-7.png",
+                "category_name": "User Stories"
+            },
+            {
+                "icon": "./images/icon/blog/icon-5.png",
+                "category_name": "Development"
+            }
+        ],
+        "latest_post": [
+            {
+                "thumb": "./images/thumb/latest/post-1.png",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "date": "January 22,2023",
+                "read_time": "2 min read"
+            },
+            {
+                "thumb": "./images/thumb/latest/post-2.png",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "date": "January 22,2023",
+                "read_time": "5 min read"
+            },
+            {
+                "thumb": "./images/thumb/latest/post-3.png",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "date": "January 22,2023",
+                "read_time": "7 min read"
+            }
+        ],
+        "popular_post": [
+            {
+                "thumb": "./images/thumb/popular/post-1.png",
+                "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
+                "date": "July 02, 2021",
+                "category": "Marketing",
+                "read_time": "2 min read"
+            },
+            {
+                "thumb": "./images/thumb/popular/post-2.png",
+                "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
+                "date": "July 02, 2021",
+                "category": "Marketing",
+                "read_time": "6 min read"
+            },
+            {
+                "thumb": "./images/thumb/popular/post-3.png",
+                "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
+                "date": "July 02, 2021",
+                "category": "Marketing",
+                "read_time": "9 min read"
+            }
+        ],
+        "tags" : [
+            {
+                "tag" : "Cyber security"
+            },
+            {
+                "tag" : "Hacker"
+            },
+            {
+                "tag" : "Blockchain"
+            },
+            {
+                "tag" : "Password"
+            },
+            {
+                "tag" : "Security"
+            },
+            {
+                "tag" : "Safety Support"
+            },
+            {
+                "tag" : "Service"
+            },
+            {
+                "tag" : "News"
+            }
+        ]
+    }
+}

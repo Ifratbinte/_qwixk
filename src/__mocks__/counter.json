@@ -1,0 +1,19 @@
+{
+    "counter" : [
+        {
+            "icon" : "./images/icon/download.png",
+            "number" : "6000",
+            "content" : "Downloads IOS and Android"
+        },
+        {
+            "icon" : "./images/icon/launch.png",
+            "number" : "5",
+            "content" : "App launched"
+        },
+        {
+            "icon" : "./images/icon/user.png",
+            "number" : "2000",
+            "content" : "Monthly active users"
+        }
+    ]
+}

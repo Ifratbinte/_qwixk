@@ -1,0 +1,24 @@
+{
+    "title": "Explore a World of Possibilities",
+    "subtitle": "Step into a world of limitless possibilities as you navigate through our extensive collection of apps. Our handpicked selection ensures you'll find the perfect app to meet your unique needs and interests.",
+    "explore_list": [
+        {
+            "icon": "./images/icon/explore/icon-1.png",
+            "title": "Coinalter Mobile App",
+            "subtitle": "Lorem ipsum dolor sit amet consectetur. Diam molestie curabitur dolor magna lacus scelerisque amet lorem.",
+            "gfx": "./images/thumb/gfx/gfx.png"
+        },
+        {
+            "icon": "./images/icon/explore/icon-2.png",
+            "title": "Web or mobile app Name 2  ",
+            "subtitle": "Diam molestie curabitur dolor magna lacus scelerisque amet lorem.",
+            "gfx": "./images/thumb/gfx/gfx.png"
+        },
+        {
+            "icon": "./images/icon/explore/icon-3.png",
+            "title": "Web or mobile app Name 3",
+            "subtitle": "consectetur Diam molestie curabitur dolor magna lacus scelerisque amet lorem.",
+            "gfx": "./images/thumb/gfx/gfx.png"
+        }
+    ]
+}
