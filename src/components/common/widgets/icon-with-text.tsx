@@ -1,10 +1,7 @@
 import React from "react";
 import { IconTextInterface } from "#/interface";
-// export interface IconTextInterface {
-//   icon: string;
-//   text: string;
-// }
-const IconText: React.FC<IconTextInterface> = ({ icon, text }) => {
+
+const IconText: React.FC<IconTextInterface> = ({ icon, text, isIcon }) => {
   return (
     <div className="flex items-center gap-3">
       <img src={icon} alt="Icon" />

@@ -1,5 +1,6 @@
 interface IconTextInterface {
-  icon: string;
+  icon?: string;
   text: string;
+  isIcon?:boolean
 }
 export default IconTextInterface;

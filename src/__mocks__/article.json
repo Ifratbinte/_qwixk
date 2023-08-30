@@ -148,23 +148,47 @@
             {
                 "thumb": "./images/thumb/popular/post-1.png",
                 "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
-                "date": "July 02, 2021",
-                "category": "Marketing",
-                "read_time": "2 min read"
+                "post_wgd": [
+                    {
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "text": "Marketing"
+                    },
+                    {
+                        "text": "5 min read"
+                    }
+                ]
             },
             {
-                "thumb": "./images/thumb/popular/post-2.png",
+                "thumb": "./images/thumb/popular/post-1.png",
                 "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
-                "date": "July 02, 2021",
-                "category": "Marketing",
-                "read_time": "6 min read"
+                "post_wgd": [
+                    {
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "text": "Marketing"
+                    },
+                    {
+                        "text": "5 min read"
+                    }
+                ]
             },
             {
-                "thumb": "./images/thumb/popular/post-3.png",
+                "thumb": "./images/thumb/popular/post-1.png",
                 "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
-                "date": "July 02, 2021",
-                "category": "Marketing",
-                "read_time": "9 min read"
+                "post_wgd": [
+                    {
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "text": "Marketing"
+                    },
+                    {
+                        "text": "5 min read"
+                    }
+                ]
             }
         ],
         "tags": [

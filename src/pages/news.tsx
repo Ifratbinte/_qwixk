@@ -2,6 +2,7 @@ import TransparentTag from "#/components/Button/transparent-tag";
 import Category from "#/components/View/News/Category";
 import Featured from "#/components/View/News/Featured";
 import LatestPost from "#/components/View/News/Latest";
+import PopularPost from "#/components/View/News/Popular";
 import Tags from "#/components/View/News/Tags";
 import React from "react";
 
@@ -17,6 +18,7 @@ const Blog = () => {
           </div>
           <div className="w-5/12">
             <Tags />
+            <PopularPost />
           </div>
         </div>
       </div>
