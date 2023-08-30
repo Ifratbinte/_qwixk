@@ -21,12 +21,9 @@ const FeatureDesc: React.FC<FeaturedInterface> = ({
       <img src={thumb} alt="Post thumbnail" />
       <div className="font-semibold text-2xl">{title}</div>
       <div className="flex mr-4">
-        {post_wgd.map((data: any, i: number) => {
+        {post_wgd.map((data: IconTextInterface, i: number) => {
           return (
-            <div className="flex items-center gap-3">
-              <img src={data.icon} alt="Icon" />
-              <div className="text-xl">{data.text}</div>
-            </div>
+            <IconText key={i} icon={data.icon} text={data.text} />
           );
         })}
       </div>

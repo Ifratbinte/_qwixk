@@ -12,8 +12,9 @@ export interface LatestInterface {
   category: string;
   post_title: string;
   desc: string;
-  date: string;
-  read_time: string;
+  post_wgd: IconTextInterface[];
+  // date: string;
+  // read_time: string;
 }
 export interface PopularInterface {
   thumb: string;
