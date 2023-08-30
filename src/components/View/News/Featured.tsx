@@ -24,7 +24,7 @@ const Featured = () => {
         </div>
         <div className="w-5/12">
           <div className="">
-            <FeaturePost category={feature_posts.category}/>
+            {/* <FeaturePost category={feature_posts.category}/> */}
           </div>
         </div>
       </div>

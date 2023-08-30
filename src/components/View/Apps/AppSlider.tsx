@@ -13,7 +13,7 @@ const SliderComponent = () => {
     slidesToShow: 1,
     speed: 500,
     dots: true,
-    // autoplay: true
+    autoplay: true
   };
 
   return (

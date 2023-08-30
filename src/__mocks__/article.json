@@ -70,23 +70,28 @@
         "category": [
             {
                 "icon": "./images/icon/blog/icon-4.png",
-                "category_name": "Marketing"
+                "category_name": "Marketing",
+                "color" : "red"
             },
             {
                 "icon": "./images/icon/blog/icon-5.png",
-                "category_name": "Development"
+                "category_name": "Development",
+                "color" : "blue"
             },
             {
                 "icon": "./images/icon/blog/icon-6.png",
-                "category_name": "Cyber Security"
+                "category_name": "Cyber Security",
+                "color" : "green"
             },
             {
                 "icon": "./images/icon/blog/icon-7.png",
-                "category_name": "User Stories"
+                "category_name": "User Stories",
+                "color" : "purple"
             },
             {
                 "icon": "./images/icon/blog/icon-5.png",
-                "category_name": "Development"
+                "category_name": "Development",
+                "color" : "blue"
             }
         ],
         "latest_post": [

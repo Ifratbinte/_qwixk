@@ -1,4 +1,6 @@
-import contactItem, { ContactInterface } from "#/interface/List-with-icon";
+import contactItem, {
+  ContactInterface,
+} from "#/components/instance/icon/List-with-icon";
 
 function phoneContact() {
   return (
