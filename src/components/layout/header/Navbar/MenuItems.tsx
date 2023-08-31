@@ -1,34 +1,47 @@
 export interface NavInterface {
   id: number;
   title: string;
-  path: string
+  path: string;
+  submenu?: any;
 }
 
 const NavItems: NavInterface[] = [
   {
     id: 1,
     title: "Home",
-    path: "/"
+    path: "/",
   },
   {
     id: 2,
     title: "Apps",
-    path: "/apps"
+    path: "/apps",
   },
   {
     id: 3,
     title: "Resources",
-    path: "/resources"
+    path: "#",
+    submenu: [
+      {
+        id: 1,
+        title: "News & Blogs",
+        path: "/news",
+      },
+      {
+        id: 1,
+        title: "Articles",
+        path: "#",
+      },
+    ],
   },
   {
     id: 4,
     title: "Contact",
-    path: "/contact"
+    path: "/contact",
   },
   {
     id: 5,
     title: "About",
-    path: "/about"
+    path: "/about",
   },
 ];
 export default NavItems;

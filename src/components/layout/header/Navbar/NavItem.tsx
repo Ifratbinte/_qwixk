@@ -1,17 +1,48 @@
 import Link from "next/link";
-import React from "react";
-import { NavInterface } from "./MenuItems";
+import React, { useState } from "react";
 
-interface Props {
-  item: NavInterface;
-}
+const NavItem = ({ title, items, path }: any) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-const NavItem: React.FC<Props> = ({ item }) => {
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  console.log({ items });
+
   return (
-    <li className="list unstyled py-2 lg:px-6 xl:px-8">
-      <Link className="flex items-center font-poppins font-medium text-xl text-gray-500 active:text-black" href={item.path}>
-        {item.title}
-      </Link>
+    <li className="relative inline-block text-left">
+      <a
+        href={path}
+        className="inline-flex justify-center w-full rounded-md  px-4 py-2 mx-3 text-lg font-medium text-gray-700 hover:text-base-green"
+        onClick={toggleDropdown}
+      >
+        {title}
+      </a>
+
+      {isOpen && (
+        <>
+          {items == "" ? null : (
+            <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+              <div
+                className="py-1"
+                role="menu"
+              >
+                {items.map((item: any, index: number) => (
+                  <a
+                    key={index}
+                    href={item.path}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                    role="menuitem"
+                  >
+                    {item.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </>
+      )}
     </li>
   );
 };
