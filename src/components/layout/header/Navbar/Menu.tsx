@@ -8,6 +8,7 @@ import { Button } from "@material-tailwind/react";
 import { BsSunFill, BsFillMoonFill } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import AuthButton from "#/components/Button/btn-primary";
+import DarkModeToggle from "#/components/ThemeMode/DarkModeToggle";
 const Menu = () => {
   const [isVisible, setIsVisible] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -60,8 +61,9 @@ const Menu = () => {
         >
           <FiAlignRight className="text-2xl lg:relative text-primary" />
         </button>
+        <DarkModeToggle />
 
-        <button
+        {/* <button
           className="block py-2 pl-3 pr-4 rounded md:p-0 text-xl"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
@@ -76,7 +78,7 @@ const Menu = () => {
               className="text-yellow-400 bg-yellow-100 h-10 w-10 p-2 rounded-xl border-2 border-yellow-200"
             />
           )}
-        </button>
+        </button> */}
       </div>
     </div>
   );
