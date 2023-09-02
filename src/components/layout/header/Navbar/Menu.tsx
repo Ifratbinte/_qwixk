@@ -62,23 +62,6 @@ const Menu = () => {
           <FiAlignRight className="text-2xl lg:relative text-primary" />
         </button>
         <DarkModeToggle />
-
-        {/* <button
-          className="block py-2 pl-3 pr-4 rounded md:p-0 text-xl"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        >
-          {theme === "dark" ? (
-            <BsFillMoonFill
-              title="Dark"
-              className="text-cyan-400 bg-cyan-100 h-10 w-10 p-2 rounded-xl border-2 border-cyan-200"
-            />
-          ) : (
-            <BsSunFill
-              title="Light"
-              className="text-yellow-400 bg-yellow-100 h-10 w-10 p-2 rounded-xl border-2 border-yellow-200"
-            />
-          )}
-        </button> */}
       </div>
     </div>
   );

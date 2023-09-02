@@ -2,47 +2,35 @@ import { useState, useEffect } from "react";
 import { BsFillMoonFill, BsSunFill } from "react-icons/bs";
 
 const DarkModeToggle = () => {
-//   const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-//   useEffect(() => {
-//     const storedDarkMode = localStorage.getItem("darkMode");
-//     if (storedDarkMode) {
-//       setDarkMode(JSON.parse(storedDarkMode));
-//     }
-//   }, []);
+  const changeTheme = (isDark: boolean) => {
+    if (isDark) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  };
 
-//   useEffect(() => {
-//     if (darkMode) {
-//       document.body.classList.add("dark");
-//     } else {
-//       document.body.classList.remove("dark");
-//     }
-//     localStorage.setItem("darkMode", JSON.stringify(darkMode));
-//   }, [darkMode]);
+  useEffect(() => {
+    const storedDarkMode = localStorage.getItem("darkMode");
+    if (!storedDarkMode) return;
+    const theme = JSON.parse(storedDarkMode);
+    changeTheme(theme);
+    setDarkMode(theme);
+  }, []);
 
-//   const toggleTheme = () => {
-//     setDarkMode(!darkMode);
-//   };
-
-  //   ************
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    useEffect(() => {
-      const savedTheme = localStorage.getItem("theme");
-      if (savedTheme) {
-        setIsDarkMode(savedTheme === "dark");
-      }
-    }, []);
-
-    const toggleTheme = () => {
-      setIsDarkMode(!isDarkMode);
-
-      localStorage.setItem("theme", isDarkMode ? "light" : "dark");
-    };
+  const toggleTheme = () => {
+    setDarkMode((prevState) => {
+      localStorage.setItem("darkMode", JSON.stringify(!prevState));
+      changeTheme(!prevState);
+      return !prevState;
+    });
+  };
 
   return (
     <button className="text-gray-800 dark:text-white" onClick={toggleTheme}>
-      {isDarkMode ? (
+      {darkMode ? (
         <BsFillMoonFill
           title="Dark"
           className="text-cyan-400 bg-cyan-100 h-12 w-12 p-3 rounded-xl border-2 border-cyan-200"
