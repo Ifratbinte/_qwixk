@@ -16,7 +16,7 @@ const SliderSettings = {
 
 const Category = () => {
   return (
-    <div className="container section-gap mx-auto">
+    <div className="container section-gap-m mx-auto">
       <AppTitle title="Explored By category" title_style="text-[48px]" />
       <Slider {...SliderSettings}>
         {category_data.blog.category.map((data: any, i: number) => {

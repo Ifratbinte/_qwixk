@@ -6,7 +6,7 @@ const FooterTop = () => {
   return (
     <div className="container mx-auto lg:section-gap sm:section-gap-m section-gap-sm">
       <div className="w-5/6 mx-auto">
-        <ul className="flex md:flex-row flex-col items-center mb-10">
+        <ul className="flex md:flex-row flex-col items-center justify-center mb-10">
           {footerData.links.map((link: any, i: number) => {
             return (
               <li className="lg:mx-7 my-2 md:mt-0" key={i}>

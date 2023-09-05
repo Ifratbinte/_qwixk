@@ -1,6 +1,6 @@
-interface IconTextInterface {
-  icon?: string;
+export default interface IconTextInterface {
+  icon?: any;
   text: string;
   isIcon?:boolean
 }
-export default IconTextInterface;
+

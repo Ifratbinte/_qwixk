@@ -18,7 +18,7 @@ const BtnPrimary: React.FC<BtnProps> = ({
   return (
     <div onClick={handleOpen}
       className={`${isAuth && "hidden lg:block"} ${
-        isSquare ? "rounded" : "lg:rounded-2xl rounded-full"
+        isSquare ? "rounded" : "lg:rounded-xl rounded-full"
       } h-[2.75rem] lg:h-[3.125rem] lg:w-48 w-36  bg-gradient-to-r from-base-green to-base-blue p-[3px] cursor-pointer`}
     >
       <div

@@ -47,7 +47,7 @@ const AuthModal: React.FC<Props> = ({ isOpen, onclickOpen }) => (
       </div>
       <div className="pt-8">
         <Button
-          className="bg-gradient-to-r from-base-green-medium to-base-blue-light w-1/3 mx-auto"
+          className="bg-gradient-to-r font-poppins from-base-green-medium to-base-blue-light w-1/3 mx-auto"
           onClick={onclickOpen}
           fullWidth
         >
