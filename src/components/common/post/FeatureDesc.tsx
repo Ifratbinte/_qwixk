@@ -1,6 +1,5 @@
 import React from "react";
-// import FeaturedInterface from "#/interface/post";
-import IconText from "../widgets/icon-with-text";
+import Redirect from "../widgets/redirect";
 
 export interface IconTextInterface {
   icon: string;
@@ -17,15 +16,21 @@ const FeatureDesc: React.FC<FeaturedInterface> = ({
   post_wgd,
 }) => {
   return (
-    <div className="shadow border border-slate-200">
-      <img src={thumb} alt="Post thumbnail" />
-      <div className="font-semibold text-2xl">{title}</div>
-      <div className="flex mr-4">
-        {post_wgd.map((data: IconTextInterface, i: number) => {
-          return (
-            <IconText key={i} icon={data.icon} text={data.text} />
-          );
-        })}
+    <div className="">
+      <img src={thumb} alt="Post thumbnail" className="w-full" />
+      <div className="p-10">
+        <div className="font-semibold text-[27px] pb-8">{title}</div>
+        <div className="flex gap-10 mb-6">
+          {post_wgd.map((data: any, i: number) => {
+            return (
+              <div className="flex items-center gap-3">
+                <img src={data.icon} alt="Icon" />
+                <div className="text-xl">{data.text}</div>
+              </div>
+            );
+          })}
+        </div>
+        <Redirect title="View Details" />
       </div>
     </div>
   );

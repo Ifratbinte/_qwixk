@@ -8,7 +8,7 @@ const Search = () => {
   return (
     <div className="container mx-auto section-gap-m">
       <TextBlock title="Search more topics" isCenter />
-      <SearchSupport />
+      <SearchSupport placeholder="Search Support"/>
       <div className="flex gap-10 section-gap-m">
         {/* Communities */}
         <div className="w-1/3">

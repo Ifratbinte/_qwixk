@@ -5,26 +5,33 @@ import feature_data from "#/__mocks__/article.json";
 import FeaturePost from "#/components/common/post/FeaturePost";
 
 const Featured = () => {
-  const feature_desc = feature_data.blog.featured_desc;
-  const feature_posts = feature_data.blog.features;
-  console.log({feature_posts});
-  
+  const feature = feature_data.blog;
+
   return (
     <div className="container mx-auto section-gap-m">
       <AppTitle title="Featured Posts" title_style="text-[48px]" />
       <div className="flex justify-between gap-10">
         <div className="w-7/12">
-          <div className="shadow border border-slate-200">
+          <div className="shadow-regular">
             <FeatureDesc
-              thumb={feature_desc.thumb}
-              title={feature_desc.title}
-              post_wgd={feature_desc.post_wgd}
+              thumb={feature.featured_desc.thumb}
+              title={feature.featured_desc.title}
+              post_wgd={feature.featured_desc.post_wgd}
             />
           </div>
         </div>
-        <div className="w-5/12">
-          <div className="">
-            {/* <FeaturePost category={feature_posts.category}/> */}
+        <div className="w-5/12 max-h-[800px] overflow-y-scroll">
+          <div className="px-3">
+            {/* {feature.featured_post.map((post: any, i: number) => {
+              return (
+                <FeaturePost
+                  key={i}
+                  category={post.cate}
+                  title={post.title}
+                  read_time={post.read_time}
+                />
+              );
+            })} */}
           </div>
         </div>
       </div>

@@ -1,7 +1,11 @@
 import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 
-const Search = () => {
+interface Props{
+  placeholder:string
+}
+
+const Search:React.FC<Props> = ({placeholder}) => {
   return (
     <form>
       <div className="relative">
@@ -12,7 +16,7 @@ const Search = () => {
           type="search"
           id="default-search"
           className="block w-full py-5 px-7 pl-20 text-base text-gray-900 border border-gray-200 rounded-xl focus:ring-blue-500 focus:border-blue-500 focus-visible:border-base-green-medium"
-          placeholder="Search Support"
+          placeholder={placeholder}
           required
         />
       </div>

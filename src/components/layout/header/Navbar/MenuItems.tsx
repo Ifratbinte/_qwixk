@@ -23,13 +23,18 @@ const NavItems: NavInterface[] = [
     submenu: [
       {
         id: 1,
-        title: "News & Blogs",
+        title: "News & Articles",
         path: "/news",
       },
       {
         id: 1,
-        title: "Articles",
+        title: "Research",
         path: "#",
+      },
+      {
+        id: 1,
+        title: "Support",
+        path: "/support",
       },
     ],
   },

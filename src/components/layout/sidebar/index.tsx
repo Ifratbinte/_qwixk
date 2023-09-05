@@ -1,17 +1,18 @@
 import React from "react";
-import {
-  Card,
-  Typography,
-  List,
-  ListItem,
-  ListItemPrefix,
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react";
-
-import { FiHome, FiGrid, FiChevronDown, FiChevronRight } from "react-icons/fi";
-import { BiSupport, BiCreditCard } from "react-icons/bi";
+import { Card } from "@material-tailwind/react";
+import Menu from "./Menu";
+import global_menu_data, {
+  GlobalItemInterface,
+} from "#/components/instance/sidebar/global";
+import advance_menu_data, {
+  AdvanceItemInterface,
+} from "#/components/instance/sidebar/advance";
+import business_menu_data, {
+  BusinessItemInterface,
+} from "#/components/instance/sidebar/business";
+import support_menu_data, {
+  SupportItemInterface,
+} from "#/components/instance/sidebar/support";
 
 const Sidebar = () => {
   const [open, setOpen] = React.useState(0);
@@ -23,9 +24,65 @@ const Sidebar = () => {
   return (
     <Card className="w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
       <div className="mb-2 p-4">
-        <img src="/images/logo/logo.png" alt="" />
+        {/* <img src="/images/logo/logo.png" alt="" /> */}
+        <div className="text-xl">Logo</div>
       </div>
-      <List className="mt-10">
+      <div className="px-4">
+        <ul>
+          {global_menu_data.map((global: GlobalItemInterface) => {
+            return (
+              <Menu
+                key={global.id}
+                Icon={global.Icon}
+                title={global.title}
+                path={global.path}
+              />
+            );
+          })}
+        </ul>
+        <h4 className="text-lg mt-10 mb-3 text-black font-medium">Advance</h4>
+        <ul>
+          {business_menu_data.map((business: BusinessItemInterface) => {
+            return (
+              <Menu
+                key={business.id}
+                Icon={business.Icon}
+                title={business.title}
+                path={business.path}
+              />
+            );
+          })}
+        </ul>
+        <h4 className="text-lg mt-10 mb-3 text-black font-medium">Business</h4>
+        <ul>
+          {advance_menu_data.map((advance: AdvanceItemInterface) => {
+            return (
+              <Menu
+                key={advance.id}
+                Icon={advance.Icon}
+                title={advance.title}
+                path={advance.path}
+              />
+            );
+          })}
+        </ul>
+        <h4 className="text-lg mt-10 mb-3 text-black font-medium">Support</h4>
+        <ul>
+          {support_menu_data.map((support: SupportItemInterface) => {
+            return (
+              <Menu
+                key={support.id}
+                Icon={support.Icon}
+                title={support.title}
+                path={support.path}
+              />
+            );
+          })}
+        </ul>
+      </div>
+
+      {/* <List className="mt-10">
+
         <Accordion
           open={open === 1}
           icon={
@@ -82,9 +139,8 @@ const Sidebar = () => {
           </ListItemPrefix>
           Resources
         </ListItem>
-      </List>
+      </List> */}
     </Card>
-    
   );
 };
 

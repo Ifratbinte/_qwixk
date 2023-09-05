@@ -8,9 +8,9 @@ const TopBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-[100px] gap-10 py-5 px-14">
       <div className="w-3/4">
-        <Search />
+        <Search placeholder="Search Support" />
       </div>
-      <div className="w-1/4 flex justify-around items-center">
+      <div className="w-1/4 flex gap-6 items-center last:justify-end ">
         <Button text="Documentation" isTransparent />
         <Notification />
         <UserPanel />

@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -38,6 +37,7 @@ module.exports = {
       boxShadow: {
         base: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
         regular: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+        blur: "0px 0px 40px 4px #DEFFF6"
       },
       rotate: {
         37: "37deg",
