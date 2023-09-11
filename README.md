@@ -1,1 +1,1 @@
-# Qwixk Landing page
+# Qwixk
