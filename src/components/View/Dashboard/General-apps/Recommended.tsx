@@ -8,12 +8,13 @@ const Recommended = () => {
   console.log("app_data", app_data);
 
   return (
-    <div className="mx-auto section-gap-m">
+    <div className="mx-auto section-gap-m !px-6 sm:px-0">
       <AppTitle title="Recommended Apps"/>
-      <div className="flex items-center justify-start">
+      <div className="flex items-center justify-start flex-wrap">
         {app_data.map((data: any, i: number) => {
           return (
             <AppCard
+            key={i}
               type={data.type}
               appFeatured={data.featured}
               title={data.title}

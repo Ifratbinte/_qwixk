@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Subtitle: React.FC<Props> = ({ subtitle }) => {
-  return <div className="font-bold text-[56px]">{subtitle}</div>;
+  return <div className="font-bold xl:text-[56px] lg:text-[44px] sm:text-[36px] text-[28px]">{subtitle}</div>;
 };
 
 export default Subtitle;

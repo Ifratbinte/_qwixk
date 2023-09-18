@@ -11,17 +11,40 @@ const SliderSettings = {
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplay: true
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 };
 
 const Category = () => {
   return (
-    <div className="container section-gap mx-auto">
-      <AppTitle title="Explored By category" title_style="text-[48px]" />
+    <div className="container section-gap-m mx-auto">
+      <AppTitle
+        title="Explored By category"
+        title_style="xl:text-[48px] md:text-[32px] text-3xl text-center xl:text-left"
+      />
       <Slider {...SliderSettings}>
         {category_data.blog.category.map((data: any, i: number) => {
           return (
-            <div className="-mx-6">
+            <div className="xl:-mx-6 -mx-3">
               <NewsCategoryCard
                 key={i}
                 icon={data.icon}

@@ -8,9 +8,9 @@ const Entertainment = () => {
   console.log("app_data", app_data);
 
   return (
-    <div className="container mx-auto section-gap-m">
+    <div className="container mx-auto section-gap-m !px-6 sm:px-0">
       <AppTitle title="Entertainment"/>
-      <div className="flex items-center justify-start">
+      <div className="flex items-center justify-start flex-wrap">
         {app_data.map((data: any, i: number) => {
           return (
             <AppCard

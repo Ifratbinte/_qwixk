@@ -1,6 +1,6 @@
 import { FaThList } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
-import { FiHome, FiGrid, FiChevronDown, FiChevronRight } from "react-icons/fi";
+import { FiHome, FiGrid} from "react-icons/fi";
 import { BiSupport } from "react-icons/bi";
 export interface SidebarInterface {
   id: number;
@@ -20,14 +20,14 @@ const ListIcon: SidebarInterface[] = [
     Icon: FiHome,
     title: "Dash",
     path: "/",
-    submenu: [
-      {
-        id: 1,
-        title: "Analytic",
-        path: "/",
-        Icon: FaThList,
-      },
-    ],
+    // submenu: [
+    //   {
+    //     id: 1,
+    //     title: "Analytic",
+    //     path: "/",
+    //     Icon: FaThList,
+    //   },
+    // ],
   },
   {
     id: 2,

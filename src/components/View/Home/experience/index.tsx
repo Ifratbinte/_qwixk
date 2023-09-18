@@ -8,7 +8,7 @@ import "react-tabs/style/react-tabs.css";
 import tabData from "#/__mocks__/experience.json";
 import { VscVmConnect } from "react-icons/vsc";
 import tab_option, { TabOptionInterface } from "./TabOption";
-
+import { ReactSVG } from 'react-svg'
 const Experience = () => {
   const [value, setValue] = useState(0);
   console.log({ tab_option });
@@ -39,17 +39,17 @@ const Experience = () => {
             value={value}
             onChange={handleChange}
             aria-label="exp_tabs"
-            className="!justify-around"
+            className="!justify-around xl:w-5/6 mx-auto"
           >
             {tab_option.map((tab: TabOptionInterface, index: number) => {
               return (
                 <Tab
                   key={index}
                   label={tab.title}
-                  // icon={tab.Icon}
-                  // iconPosition="start"
+                  icon={<tab.Icon/>}
+                  iconPosition="start"
                   {...tabProps(index)}
-                  className="font-poppins text-lg rounded-xl bg-white py-6 px-16 w-1/3 text"
+                  className="font-poppins xl:text-xl text-base rounded-xl bg-white py-5 px-6 xl:gap-2 w-1/3 capitalize"
                 />
               );
             })}
@@ -63,7 +63,7 @@ const Experience = () => {
                 <img
                   src={tabContent.gfx}
                   alt={tabContent.title}
-                  className="w-[500px]"
+                  className="xl:w-[500px]"
                 />
                 <TextBlock
                   title={tabContent.title}

@@ -1,13 +1,15 @@
-
 import { VscVmConnect } from "react-icons/vsc";
 import { BsShieldCheck } from "react-icons/bs";
 import { BiTrim } from "react-icons/bi";
 import { IconType } from "react-icons/lib";
+import Monitor from "../../../../../public/images/icon/svg/monitor.svg";
+import SVG from "react-svg";
 
 export interface TabOptionInterface {
-    Icon: IconType;
-    title: string;
-  }
+  // Icon: typeof SVG
+  Icon: IconType;
+  title: string;
+}
 
 const TabOption: TabOptionInterface[] = [
   {

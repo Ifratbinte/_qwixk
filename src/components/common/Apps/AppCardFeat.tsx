@@ -33,17 +33,17 @@ const AppCardFeat: React.FC<Props> = ({
         type === "Spotlight"
           ? "bg-gradient-to-br from-[#88E4B3] to-[#A7A2F3]"
           : ""
-      } relative rounded-[2rem] m-[22px] p-10 h-[456px]`}
+      } relative rounded-[2rem] m-[22px] sm:p-10 p-6 h-[456px]`}
     >
       <BadgeThumb category={type} />
       <div className="flex justify-center items-center p-[105px]">
         <img src={logo} alt="" className=" h-14" />
       </div>
-      <div className="flex justify-between items-center gap-6">
-        <div className="flex items-center ">
+      <div className="flex justify-between sm:flex-row flex-col items-center sm:gap-6 gap-2">
+        <div className="flex items-center">
           <img src={app_thumb} alt="App Thumb" className="w-28" />
           <div className="ml-5">
-            <h6 className="text-2xl font-medium">{app_name}</h6>
+            <h6 className="sm:text-2xl text-lg font-medium">{app_name}</h6>
             <span className="text-white text-lg">Powered by Qwixk</span>
           </div>
         </div>

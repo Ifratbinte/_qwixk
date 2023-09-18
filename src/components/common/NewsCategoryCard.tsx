@@ -8,10 +8,10 @@ interface CardProps {
 
 const NewsCategoryCard: React.FC<CardProps> = ({ icon, category_name, color }) => {
   return (
-    <div className="border border-slate-200 rounded-lg mx-6 px-10 py-8">
+    <div className="border border-slate-200 rounded-lg xl:mx-6 mx-3 lg:px-10 px6 py-8">
       <img src={icon} alt={category_name} className="h-12 mx-auto"/>
       <div
-        className={`text-2xl font-medium mt-4 text-center ${color === "red" ? "text-red-500" : ""} ${
+        className={`xl:text-2xl md:text-lg font-medium mt-4 text-center ${color === "red" ? "text-red-500" : ""} ${
           color === "blue" ? "text-blue-500" : ""
         } ${color === "green" ? "text-green-600" : ""} ${
           color === "purple" ? "text-purple-400" : ""

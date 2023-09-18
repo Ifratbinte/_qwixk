@@ -7,7 +7,8 @@ const Popular = () => {
   const popular = post_data.blog.popular_post;
   return (
     <>
-      <AppTitle title="popular Post" title_style="text-[20px]" />
+      {/* <AppTitle title="Popular Post" title_style="text-xl text-center xl:text-left mt-12 pb-8" /> */}
+      <div className="text-xl font-semibold mt-12 mb-8 text-center xl:text-left">Popular Post</div>
       {popular.map((post_data: any, i: number) => {
         return (
           <PopularPost

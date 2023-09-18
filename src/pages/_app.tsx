@@ -18,17 +18,20 @@ export default function App({ Component, pageProps }: AppProps) {
   // console.log("pathname", pathname);
 
   return (
-    <Provider store={store}>
-      {/* {dashboard.find((i) => i === pathname) ? ( */}
-      {pathname.startsWith("/dashboard") ? (
-        <DashboardLayout>
-          <Component {...pageProps} />
-        </DashboardLayout>
-      ) : (
-        <MasterLayout>
-          <Component {...pageProps} />
-        </MasterLayout>
-      )}
-    </Provider>
+    <div>
+      <Provider store={store}>
+        {/* {dashboard.find((i) => i === pathname) ? ( */}
+        {pathname.startsWith("/dashboard") ? (
+          <DashboardLayout>
+            <Component {...pageProps} />
+          </DashboardLayout>
+          
+        ) : (
+          <MasterLayout>
+            <Component {...pageProps} />
+          </MasterLayout>
+        )}
+      </Provider>
+    </div>
   );
 }

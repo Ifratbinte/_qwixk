@@ -3,9 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { FiAlignRight, FiUser } from "react-icons/fi";
 import styles from "./menu.module.css";
 import Navigation from "./NavComponent";
-import AuthDialog from "#/components/auth/login";
-import { Button } from "@material-tailwind/react";
-import { BsSunFill, BsFillMoonFill } from "react-icons/bs";
+import AuthDialog from "#/components/auth/AuthModal";
 import { useTheme } from "next-themes";
 import AuthButton from "#/components/Button/btn-primary";
 import DarkModeToggle from "#/components/ThemeMode/DarkModeToggle";
@@ -17,7 +15,7 @@ const Menu = () => {
   const handleOpen = () => setOpen((cur) => !cur);
 
   return (
-    <div className="container mx-auto z-20 py-4 px-2 lg:px-0 flex items-center justify-between lg:mt-[2rem]">
+    <div className="container mx-auto z-20 py-4 px-2 lg:px-0 lg:gap-5 flex items-center justify-between lg:mt-[2rem]">
       <div className="flex items-center">
         <div className="logo lg:w-[300px] w-[100px]">
           <img src="/images/logo/logo.png" alt="" className="lg:w-[140px]" />
@@ -61,7 +59,7 @@ const Menu = () => {
         >
           <FiAlignRight className="text-2xl lg:relative text-primary" />
         </button>
-        <DarkModeToggle />
+        {/* <DarkModeToggle /> */}
       </div>
     </div>
   );

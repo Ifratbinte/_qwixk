@@ -17,11 +17,10 @@ const AppCardFeat: React.FC<CardFeatProps> = ({
   isBgWhite,
 }) => {
   return (
-    <Link
-      href="#"
+    <div
       className={`${
         isBgWhite ? "bg-white" : ""
-      } relative overflow-hidden w-[250px] h-[230px] border border-slate-50 shadow-md rounded-3xl mr-8`}
+      } relative overflow-hidden w-[250px] h-[230px] border border-slate-50 shadow-md rounded-3xl mr-8 my-3`}
     >
       <Badge type={type} />
       <div>
@@ -35,7 +34,6 @@ const AppCardFeat: React.FC<CardFeatProps> = ({
         {title}
       </h5>
       <ul className="flex justify-center">
-        {/* <StoreList icon={}/> */}
         <li className="mx-1">
           <a href="#">
             <img src="./images/icon/apps/store.png" alt="" />
@@ -52,7 +50,7 @@ const AppCardFeat: React.FC<CardFeatProps> = ({
           </a>
         </li>
       </ul>
-    </Link>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ import TextBlock from "#/components/common/TextBlock";
 const Mission = () => {
   return (
     <div className="container mx-auto lg:section-gap sm:section-gap-m section-gap-sm">
-      <div className="lg:flex lg:items-center gap-20">
+      <div className="lg:flex lg:items-center gap-20 px-6 sm:0">
         <div className="lg:w-5/12">
           <img src="./images/thumb/about/mission.png" alt="" />
         </div>
@@ -14,7 +14,7 @@ const Mission = () => {
             Our
             <span className="text-base-green-medium ml-3">Mission</span>
           </div>
-          <p className="text-lg text-justify md:leading-loose">{missionData.mission_desc}</p>
+          <p className="lg:text-lg text-base text-justify md:leading-loose leading-relaxed">{missionData.mission_desc}</p>
         </div>
       </div>
     </div>

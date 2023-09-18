@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 const Nav = () => {
   return (
     <>
-      <ul className="menu lg:flex lg:items-center lg:ml-10">
+      <ul className="menu flex lg:items-center items-start lg:flex-row flex-col lg:ml-10">
         {navItems &&
           navItems.map((item: NavInterface, index: number) => (
             <NavItem

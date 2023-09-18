@@ -6,7 +6,7 @@ interface Props {
 }
 const Redirect: React.FC<Props> = ({ title }) => {
   return (
-    <Link href="/" className="flex items-center text-lg">
+    <Link href="/" className="flex items-center xl:text-lg text-base">
       {title} <FaLongArrowAltRight className="ml-3" />
     </Link>
   );

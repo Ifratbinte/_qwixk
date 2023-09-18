@@ -13,7 +13,7 @@ const AppActionBtn: React.FC<ButtonProps> = ({ button, btn_text }) => {
         btn_text === "Install Now" ? "bg-[#8481FE]" : ""
       } ${
         btn_text === "Download" ? "bg-[#38B3C3]" : ""
-      } text-white px-12 py-5 rounded text-xl`}
+      } text-white px-6 py-5 rounded text-lg`}
     >
       {button}
     </button>

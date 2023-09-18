@@ -10,7 +10,7 @@ const Counter = () => {
     <div className="lg:section-gap sm:section-gap-m section-gap-sm">
       <div className="bg-gradient-to-r from-blue-50 to-green-50 ">
         <div className="container mx-auto lg:section-gap sm:section-gap-m section-gap-sm">
-          <div className="w-2/3 flex md:justify-between md:flex-row flex-col gap-10 md:gap-0 px-3 mx-auto lg:px-0">
+          <div className="xl:w-2/3 lg:w-3/4 flex md:justify-between md:flex-row flex-col gap-10 md:gap-0 px-3 mx-auto lg:px-0">
             {counterData.counter.map((counter: any, i: number) => {
               return (
                 // <ScrollTrigger

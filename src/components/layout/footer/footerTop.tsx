@@ -5,14 +5,14 @@ import Link from "next/link";
 const FooterTop = () => {
   return (
     <div className="container mx-auto lg:section-gap sm:section-gap-m section-gap-sm">
-      <div className="w-5/6 mx-auto">
-        <ul className="flex md:flex-row flex-col items-center mb-10">
+      <div className="xl:w-5/6 mx-auto">
+        <ul className="flex sm:flex-row flex-col flex-wrap items-center justify-center mb-10">
           {footerData.links.map((link: any, i: number) => {
             return (
-              <li className="lg:mx-7 my-2 md:mt-0" key={i}>
+              <li className="mx-7 my-2 md:mt-0" key={i}>
                 <Link
                   href={link.path}
-                  className="font-poppins font-medium text-base-black hover:text-base-green hover:border-b-2 hover:border-b-green-500 transition duration-700 ease-in-out text-lg"
+                  className="font-poppins font-medium text-base-black hover:text-base-green hover:border-b-2 hover:border-b-green-500 transition duration-700 ease-in-out lg:text-lg"
                 >
                   {link.link_option}
                 </Link>
@@ -25,7 +25,7 @@ const FooterTop = () => {
             return (
               <li className="mx-2" key={i}>
                 <Link href={social.path}>
-                  <img src={social.icon} alt="" />
+                  <img src={social.icon} alt=""/>
                 </Link>
               </li>
             );

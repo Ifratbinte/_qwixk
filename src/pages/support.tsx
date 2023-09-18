@@ -5,6 +5,7 @@ import SupportOptions from "#/components/View/Support/SupportOptions";
 import Search from "#/components/View/Support/SearchTopics";
 import QuickLinks from "#/components/View/Support/QuickLinks";
 import Slider from "#/components/View/Support/Slider";
+import SearchTopic from "#/components/View/Support/SearchTopics";
 
 const Support = () => {
   return (
@@ -16,7 +17,7 @@ const Support = () => {
       <Slider />
       <SupportOptions />
       <div className="-mt-10">
-        <Search />
+        <SearchTopic />
       </div>
       <QuickLinks />
     </>

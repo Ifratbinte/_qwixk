@@ -15,11 +15,37 @@ const Slider = () => {
     nextArrow: <FiChevronRight />,
     prevArrow: <FiChevronLeft />,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
 
   return (
     <div className="container section-gap-m mx-auto">
-      <div className="w-1/2 mx-auto">
+      <div className="xl:w-1/2 w-2/3 mx-auto">
         <AppSlider {...settings}>
           {sliderData.apps.map((data: any, i: number) => {
             return (
