@@ -45,26 +45,26 @@
                 }
             ]
         },
-        "features": [
+        "featured_post": [
             {
-                "category": "Marketing",
+                "cate": "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "read_time": "4 min Read"
+                "read_time": "5 min Read"
             },
             {
-                "category": "Marketing",
+                "cate": "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "read_time": "4 min Read"
+                "read_time": "7 min Read"
             },
             {
-                "category": "Marketing",
+                "cate": "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "read_time": "4 min Read"
+                "read_time": "3 min Read"
             },
             {
-                "category": "Marketing",
+                "cate": "Marketing",
                 "title": "Lorem ipsum dolor sit amet consectetur. Sit libero et imperdiet enim tortor. ",
-                "read_time": "4 min Read"
+                "read_time": "9 min Read"
             }
         ],
         "category": [
@@ -142,6 +142,54 @@
                         "text": "5 min read"
                     }
                 ]
+            },
+            {
+                "thumb": "./images/thumb/latest/post-4.jpeg",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "post_wgd": [
+                    {
+                        "icon": "./images/icon/calendar.png",
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "icon": "./images/icon/clock.png",
+                        "text": "5 min read"
+                    }
+                ]
+            },
+            {
+                "thumb": "./images/thumb/latest/post-5.jpg",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "post_wgd": [
+                    {
+                        "icon": "./images/icon/calendar.png",
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "icon": "./images/icon/clock.png",
+                        "text": "5 min read"
+                    }
+                ]
+            },
+            {
+                "thumb": "./images/thumb/latest/post-6.jpg",
+                "category": "Marketing",
+                "post_title": "Lorem ipsum dolor sit amet consectetf.",
+                "post_desc": "Lorem ipsum dolor sit amet consectetur. Et enim quam magna viverra ut proin. Faucibus morbi in condimentum euismod eget quam ultrices.",
+                "post_wgd": [
+                    {
+                        "icon": "./images/icon/calendar.png",
+                        "text": "January 22,2023"
+                    },
+                    {
+                        "icon": "./images/icon/clock.png",
+                        "text": "5 min read"
+                    }
+                ]
             }
         ],
         "popular_post": [
@@ -161,7 +209,7 @@
                 ]
             },
             {
-                "thumb": "./images/thumb/popular/post-1.png",
+                "thumb": "./images/thumb/popular/post-2.png",
                 "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
                 "post_wgd": [
                     {
@@ -176,7 +224,7 @@
                 ]
             },
             {
-                "thumb": "./images/thumb/popular/post-1.png",
+                "thumb": "./images/thumb/popular/post-3.png",
                 "post_title": "Lorem ipsum dolor sit amet consectetur. Orci arcu aliquam lorem non nunc convalli scelerisque.",
                 "post_wgd": [
                     {

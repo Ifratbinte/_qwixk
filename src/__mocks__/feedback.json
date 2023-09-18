@@ -1,0 +1,51 @@
+{
+    "pending_response": {
+        "table_head": [
+            {
+                "title": "SL no."
+            },
+            {
+                "title": "Name"
+            },
+            {
+                "title": "Email Address"
+            },
+            {
+                "title": "Message"
+            },
+            {
+                "title": "Data"
+            }
+        ],
+        "table_content": [
+            {
+                "sl_no": "01",
+                "name": "Enter name",
+                "email": "yourname@gmail.com",
+                "message": "Lorem ipsum dolor sit amet consectetur. Tincidunt aliquet ",
+                "date": "Apr 23, 2023"
+            },
+            {
+                "sl_no": "02",
+                "name": "Enter name",
+                "email": "yourname@gmail.com",
+                "message": "Lorem ipsum dolor sit amet consectetur. Tincidunt aliquet sed.",
+                "date": "Apr 23, 2023"
+            },
+            {
+                "sl_no": "03",
+                "name": "Enter name",
+                "email": "yourname@gmail.com",
+                "message": "Lorem ipsum dolor sit amet consectetur. Tincidunt",
+                "date": "Apr 23, 2023"
+            },
+            {
+                "sl_no": "04",
+                "name": "Enter name",
+                "email": "yourname@gmail.com",
+                "message": "Lorem ipsum dolor sit amet consectetur. Tincidunt aliquet sed.",
+                "date": "Apr 23, 2023"
+            }
+        ]
+    }
+}

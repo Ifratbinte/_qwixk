@@ -27,10 +27,6 @@
         {
             "link_option": "About Us",
             "path": "/about"
-        },
-        {
-            "link_option": "Blog",
-            "path": "/news"
         }
     ],
     "icons": [

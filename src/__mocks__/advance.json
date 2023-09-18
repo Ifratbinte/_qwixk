@@ -1,0 +1,290 @@
+{
+    "cms": {
+        "recent": {
+            "table_head": [
+                {
+                    "title": "CIN"
+                },
+                {
+                    "title": "Title"
+                },
+                {
+                    "title": "Category"
+                },
+                {
+                    "title": "Location"
+                },
+                {
+                    "title": "Data"
+                }
+            ],
+            "table_content": [
+                {
+                    "cin": 1,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "Marketing",
+                    "location": "News & Articles",
+                    "date": "Apr 23, 2023 2:30PM"
+                },
+                {
+                    "cin": 2,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "Machine Learning",
+                    "location": "Research",
+                    "date": "Apr 23, 2023 4:30PM"
+                },
+                {
+                    "cin": 3,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "Marketing",
+                    "location": "News & Articles",
+                    "date": "Apr 23, 2023 5:30PM"
+                },
+                {
+                    "cin": 4,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "Social Engineering",
+                    "location": "Research",
+                    "date": "Apr 23, 2023 1:30AM"
+                },
+                {
+                    "cin": 5,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "aaaaaaa",
+                    "location": "News & Articles",
+                    "date": "Apr 23, 2023 2:30PM"
+                },
+                {
+                    "cin": 6,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "sssssssssssss",
+                    "location": "Research",
+                    "date": "Apr 23, 2023 4:30PM"
+                },
+                {
+                    "cin": 7,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "dddddddddddd",
+                    "location": "News & Articles",
+                    "date": "Apr 23, 2023 5:30PM"
+                },
+                {
+                    "cin": 8,
+                    "title": "Lorem ipsum dolor sit amet consectetur.",
+                    "category": "fffffffffff",
+                    "location": "Research",
+                    "date": "Apr 23, 2023 1:30AM"
+                }
+            ]
+        }
+    },
+    "marketing": {
+        "notification": {
+            "table_head": [
+                {
+                    "title": ""
+                },
+                {
+                    "title": "Notification"
+                },
+                {
+                    "title": "Status"
+                },
+                {
+                    "title": "Start/Send"
+                },
+                {
+                    "title": "Sends"
+                },
+                {
+                    "title": "Opens"
+                }
+            ],
+            "table_content": [
+                {
+                    "thumb": "/images/thumb/business/thumb-1.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-2.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Processing",
+                    "status_type": "processing",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-3.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Failed",
+                    "status_type": "failed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-4.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-5.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Processing",
+                    "status_type": "processing",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                }
+            ]
+        },
+        "message": {
+            "table_head": [
+                {
+                    "title": ""
+                },
+                {
+                    "title": "Message"
+                },
+                {
+                    "title": "Status"
+                },
+                {
+                    "title": "Start/Send"
+                },
+                {
+                    "title": "Sends"
+                },
+                {
+                    "title": "Opens"
+                }
+            ],
+            "table_content": [
+                {
+                    "thumb": "/images/thumb/business/thumb-1.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-2.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Failed",
+                    "status_type": "failed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-3.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Processing",
+                    "status_type": "processing",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-4.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-5.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Processing",
+                    "status_type": "processing",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                }
+            ]
+        },
+        "advertisement": {
+            "table_head": [
+                {
+                    "title": ""
+                },
+                {
+                    "title": "Advertisement"
+                },
+                {
+                    "title": "Status"
+                },
+                {
+                    "title": "Start/Send"
+                },
+                {
+                    "title": "Sends"
+                },
+                {
+                    "title": "Opens"
+                }
+            ],
+            "table_content": [
+                {
+                    "thumb": "/images/thumb/business/thumb-1.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "10 days",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-4.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "1000",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-3.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Processing",
+                    "status_type": "processing",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "10 days",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-4.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Failed",
+                    "status_type": "failed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "10 days",
+                    "opens": "0%"
+                },
+                {
+                    "thumb": "/images/thumb/business/thumb-5.png",
+                    "notification": "Data Message Test",
+                    "status_text": "Completed",
+                    "status_type": "completed",
+                    "start": "Apr 23, 2023 2:20 PM",
+                    "sends": "10 days",
+                    "opens": "0%"
+                }
+            ]
+        }
+    }
+}

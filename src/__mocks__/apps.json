@@ -25,15 +25,15 @@
     "apps_content": {
         "icons": [
             {
-                "store": "./images/icon/apps/store.png",
+                "store": "/images/icon/apps/store.png",
                 "path": "#"
             },
             {
-                "store": "./images/icon/apps/android.png",
+                "store": "/images/icon/apps/android.png",
                 "path": "#"
             },
             {
-                "store": "./images/icon/apps/play.png",
+                "store": "/images/icon/apps/play.png",
                 "path": "#"
             }
         ],
