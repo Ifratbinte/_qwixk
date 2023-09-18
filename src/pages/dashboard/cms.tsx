@@ -6,7 +6,7 @@ const CMS = () => {
   return (
     <div className="bg-white shadow-base h-full rounded-xl p-6 xl:p-14">
       <PanelHead title="CMS" />
-      <CMSContent/>
+      <CMSContent />
     </div>
   );
 };

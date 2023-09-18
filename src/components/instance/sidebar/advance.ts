@@ -21,7 +21,7 @@ const ListIcon: AdvanceItemInterface[] = [
     path: "/dashboard/analytics",
   },
   {
-    id: 3,
+    id: 2,
     Icon: MdOutlineAnnouncement,
     title: "Reports",
     path: "/dashboard/report",

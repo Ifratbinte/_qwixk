@@ -5,8 +5,8 @@ import Link from "next/link";
 const FooterTop = () => {
   return (
     <div className="container mx-auto lg:section-gap sm:section-gap-m section-gap-sm">
-      <div className="xl:w-5/6 mx-auto">
-        <ul className="flex sm:flex-row flex-col flex-wrap items-center justify-center mb-10">
+      <div className="w-5/6 mx-auto">
+        <ul className="flex md:flex-row flex-col items-center justify-center mb-10">
           {footerData.links.map((link: any, i: number) => {
             return (
               <li className="mx-7 my-2 md:mt-0" key={i}>
