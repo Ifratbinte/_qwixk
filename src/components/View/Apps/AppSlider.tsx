@@ -13,7 +13,45 @@ const SliderComponent = () => {
     slidesToShow: 1,
     speed: 500,
     dots: true,
-    autoplay: true
+    // autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "470px",
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 2,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+        },
+      },
+    ],
   };
 
   return (
