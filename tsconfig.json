@@ -27,6 +27,6 @@
       "#styles/*": ["./src/styles/*"],                      
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/View/Dashboard/Business/cms/Pending.tsx", "src/components/View/Dashboard/Business/cms/Recent.tsx"],
   "exclude": ["node_modules"]
 }

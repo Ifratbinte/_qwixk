@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -19,7 +18,6 @@ module.exports = {
         "base-blue-light": "#53C8D8",
         "base-black": "#2C2C2C",
         "base-paragraph": "#666666",
-
         "app-blue": "#4E43FF",
         "app-purple": "#CB6BED",
         "app-green": "#00BF58",
@@ -38,6 +36,7 @@ module.exports = {
       boxShadow: {
         base: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
         regular: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+        blur: "0px 0px 40px 4px #DEFFF6"
       },
       rotate: {
         37: "37deg",
@@ -56,10 +55,13 @@ module.exports = {
             maxWidth: "768px",
           },
           "@screen lg": {
-            maxWidth: "1280px",
+            maxWidth: "1024px",
           },
           "@screen xl": {
-            maxWidth: "1600px",
+            maxWidth: "1280px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1536px",
           },
         },
         ".section-gap": {
